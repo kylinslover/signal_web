@@ -1,0 +1,17 @@
+.btn-copy{
+    position: relative;
+    top: 0px;
+    float:right;
+    cursor: pointer;
+    height: 20px;
+    width:70px;
+    text-align: center;
+    padding: 1px 8px;
+    color: #FFF5EE;
+    font-size: .9em;
+    background-color: rgba(224, 224, 224, 0.2);
+    border-radius: 10px;
+    transition: opacity 1.5s;
+    opacity: 0;
+}
+pre:hover .btn-copy{opacity: 1;transition-duration: 1s;}
